@@ -1,4 +1,4 @@
-"""myset = {'Batman', 'Wonder Woman', 'Superman'}
+myset = {'Batman', 'Wonder Woman', 'Superman'}
 myset.add('Flash')
 print(myset)
 
@@ -11,7 +11,7 @@ print(myset)
 if 'Lex Luthor' in myset:
     print('Lex is here')
 else:
-    print('Lex is not here')"""
+    print('Lex is not here')
 
 
 Heroes = {'Batman', 'Superman', 'Wonder Woman', 'Flash', 'Cyborg', 'Aquaman'}
