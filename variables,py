@@ -1,7 +1,7 @@
 x = 5
 
 
-print(type(var))
+print(type(x))
 
 var = 8
 #isnt right
