@@ -1,9 +1,18 @@
-thislist = ["apple", "banana", "cherry"]
-thislist.append("orange")
-print(thislist)
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+thisdict["color"] = "red"
+print(thisdict)
 
+#looping through dict
+for x in thisdict:
+  print(thisdict[x])
 
-thislist2 = ["apple", "banana", "cherry"]
-tropical = ["mango", "pineapple", "papaya"]
-thislist2.extend(tropical)
-print(thislist2)
+thisdict2 = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+thisdict2.update({"color": "red"})
